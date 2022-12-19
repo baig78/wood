@@ -13,7 +13,7 @@
 }
 
 h5 {
-  font-size: 2.25em !important;
+  font-size: 2.25em ;
 }
 
 hr {
@@ -31,8 +31,37 @@ hr {
   }
 
   hr {
-    width: 361px;
-    margin-left: 20px;
+    // width: 361px;
+    // margin-left: 20px;
+    display: none;
+  }
+  h5{
+    font-size: 1.25em;
+  }
+
+  .carousel-caption{
+    padding-bottom: 9.25em;
+  }
+
+}
+
+@media screen and (max-width: 350px) {
+
+
+  .carousel-caption {
+    bottom: 6.25rem;
+  }
+  h5{
+    font-size: 1.25em;
+  }
+
+  hr {
+    // width: 170px;
+    // margin-left: 20px;
+    display: none;
+  }
+  .carousel-caption{
+    padding-bottom: 9.25em;
   }
 
 }
